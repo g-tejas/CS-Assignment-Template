@@ -9,9 +9,8 @@
 \RequirePackage{listings}
 \RequirePackage{tcolorbox}
 \RequirePackage{caption}
-\usepackage[shortlabels]{enumitem}
-\usepackage{algorithm}
-\usepackage{algpseudocode}
+\RequirePackage{algorithm}
+\RequirePackage{algpseudocode}
 
 \setlength{\textwidth}{6.5in}
 \setlength{\textheight}{9.in}
@@ -50,15 +49,15 @@
   justification=raggedright,singlelinecheck=false % left
 }
 
-\newcommand{\assignmentTitle}[5]{
+\newcommand{\assignmentTitle}[4]{
     \begin{flushleft}
-    Student Name: Tejas Garrepally\\
-    Student ID: A0251778R
+    Student Name: #1\\
+    Student ID: #2
     \end{flushleft}
-    
+
     \begin{center}\vspace{-1.5cm}
-    \textbf{\large #1} \\
-    \textbf{#2}
+    \textbf{\large #3} \\
+    \textbf{#4}
     \end{center}
 
     \noindent\rule{\linewidth}{.6pt}
