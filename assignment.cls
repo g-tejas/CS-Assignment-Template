@@ -14,6 +14,8 @@
 \RequirePackage[shortlabels]{enumitem}
 \RequirePackage{graphicx}
 \RequirePackage[T1]{fontenc}
+\RequirePackage{amssymb}% http://ctan.org/pkg/amssymb
+\RequirePackage{pifont}% http://ctan.org/pkg/pifont
 
 \setlength{\textwidth}{6.5in}
 \setlength{\textheight}{9.in}
