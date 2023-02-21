@@ -11,6 +11,9 @@
 \RequirePackage{caption}
 \RequirePackage{algorithm}
 \RequirePackage{algpseudocode}
+\RequirePackage[shortlabels]{enumitem}
+\RequirePackage{graphicx}
+\RequirePackage[T1]{fontenc}
 
 \setlength{\textwidth}{6.5in}
 \setlength{\textheight}{9.in}
